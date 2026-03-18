@@ -1093,7 +1093,8 @@ h3 { font-size: clamp(1.4rem, 2.5vw, 1.8rem); }
 .footer-social svg {
   width: 20px;
   height: 20px;
-  fill: currentColor;
+  fill: none;
+  stroke: currentColor;
   color: var(--color-white);
 }
 
