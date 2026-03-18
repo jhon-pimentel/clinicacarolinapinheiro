@@ -1328,9 +1328,14 @@ h3 { font-size: clamp(1.4rem, 2.5vw, 1.8rem); }
   }
 
   .hero-image-wrapper {
-    height: 50vh;
-    min-height: 300px;
+    height: auto;
+    aspect-ratio: 4/5;
+    min-height: auto;
     border-radius: var(--radius-lg);
+  }
+
+  .hero-image-wrapper img {
+    object-position: top center;
   }
 
   .hero-buttons {
@@ -1511,8 +1516,9 @@ h3 { font-size: clamp(1.4rem, 2.5vw, 1.8rem); }
   }
 
   .hero-image-wrapper {
-    height: 40vh;
-    min-height: 250px;
+    height: auto;
+    aspect-ratio: 4/5;
+    min-height: auto;
   }
 
   .service-card {
